@@ -86,8 +86,8 @@ nav ul li a{
     background: #009688;
     text-align: center;
     position: fixed;
-    right: 30px;
-    top: 20px;
+    right: 10px;
+    top: 10px;
     border-radius: 3px;
     z-index: 3;
     cursor: pointer;
@@ -100,6 +100,9 @@ nav ul li a{
     .banner-btn a{
         display: block;
         margin: 20px auto;
+    }
+    #banner{
+        height: 100%;
     }
 }
 
