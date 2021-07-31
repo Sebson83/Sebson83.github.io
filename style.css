@@ -63,6 +63,10 @@
 .about-content{
     padding-top: 20px;
 }
+.about-content img{
+    position:relative;
+    
+}
 .skills-bar p{
     margin-bottom: 6px;
     font-weight: 600;
