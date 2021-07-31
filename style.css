@@ -63,9 +63,9 @@
 .about-content{
     padding-top: 20px;
 }
-.about-content img{
-    position:relative;
-    
+.me-links{
+    float: left;
+    margin-right: 10px;
 }
 .skills-bar p{
     margin-bottom: 6px;
