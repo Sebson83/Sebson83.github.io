@@ -56,18 +56,19 @@
     padding-bottom: 50px;
     color: #555;
 }
-#about .btn{
+/* #about .btn{
     margin-top: 20px;
     margin-bottom: 30px;
-}
+} */
 .about-content{
     padding-top: 20px;
 }
 .me-links{
     float: left;
     margin-right: 10px;
+    
 }
-.skills-bar p{
+/* .skills-bar p{
     margin-bottom: 6px;
     font-weight: 600;
 }
@@ -77,7 +78,7 @@
 .progress{
     border-radius: 16px !important;
     margin-bottom: 20px;
-}
+} */
 
 /* ----------Services---------- */
 #services{
@@ -102,7 +103,27 @@
     width: 170px;
     margin: 20px auto 5px;
 }
-
-
+.services{
+    margin-top: 40px;
+}
+.icon{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+#services p{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ccc;
+}
+.services .col-md-3:hover{
+    background: #007bff;
+    cursor: pointer;
+    transition: 0.7s;
+}
 
 
