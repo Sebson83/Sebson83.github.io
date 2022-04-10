@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-/* ----- Navigation ----- */
+/* ----------Navigation---------- */
 
 #nav-bar{
     position: sticky;
@@ -12,7 +12,7 @@
 }
 .navbar-brand img{
     height: 40px;
-    padding-left: 10px;
+    padding-left: 30px;
 }
 .navbar-nav li{
     padding: 0 10px;
@@ -25,13 +25,13 @@
     color: #007bff !important;
 }
 .navbar{
-    background: white;
+    background: #faebd7;
 }
 .navbar-toggler{
     border: none !important;
 }
 .nav-link{
-    color: #555;
+    color: #555 !important;
     font-weight: 600;
     font-size: 16px;
 }
