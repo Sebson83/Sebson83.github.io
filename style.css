@@ -120,11 +120,11 @@ footer{
     .logofooter{
         width: 15%;
     }
-    .ulinformation{
+    .ulinformation, .ullaw{
         font-size: 20px;
     }
 }
-.ulinformation{
+.ulinformation, .ullaw{
     font-weight: 700;
     margin-top: 15px;
 }
@@ -152,7 +152,15 @@ footer{
     #openinformation:checked +li .subinformation{
         display: flex;
     }
+    #openlaw:checked +li .subinformation{
+        display: flex;
+    }
     #openinformation:checked +li .arrowinformation{
+        display: inline-block;
+        transform: rotate(180deg);
+        transition: transform 0.5;
+    }
+    #openlaw:checked +li .arrowinformation{
         display: inline-block;
         transform: rotate(180deg);
         transition: transform 0.5;
@@ -219,7 +227,7 @@ footer {
         width: 15%;
         /* border: 1px solid white; */
     }
-    .ulinformation {
+    .ulinformation, .ullaw {
         width: 20%;
         font-size: 1.5vw;
         text-align: center;
